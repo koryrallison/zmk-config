@@ -4,14 +4,15 @@
 /* map Zen's extra keys */
 #define X_RH  SMART_NUM    // thumb row, right
 
-#define X_LT  &trans
-#define X_LM  &trans
-#define X_LB  &trans
+#define X_LT  &kp TAB
+#define X_LM  &kp LSHIFT
+#define X_LB  &kp LCTRL
+#define X_LH  &kp C_AC_COPY
 
-#define X_RT  &trans
-#define X_RM  &smart_mouse
+#define X_RT  &kp EQUAL
+#define X_RM  &kp SQT
 #define X_RB  &key_repeat
-
+#define X_RH  &kp C_AC_PASTE
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
