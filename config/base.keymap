@@ -237,15 +237,6 @@ ZMK_BEHAVIOR(win_sleep, macro,
 #define VOL_DOWN    &hmr LCTRL C_VOL_DN
 
 
-combos {
-    compatible = "zmk,combos";
-    combo_gaming {
-        timeout-ms = <50>;
-            key-positions = <11 23 35>
-            bindings = <&tog GAM>
-        };
-    };    
-}
 
 /* Keymap */
 
